@@ -303,7 +303,13 @@ body {
 
 .footer-container> .footer>.fh-5>div{
     display: flex;
+    flex-direction: column;
     
+}
+.footer-container> .footer>.fh-5>div>.number{
+  display: flex;
+  flex-direction: row;
+  
 }
 .footer-container> .footer>.fh-5>div>p{
     margin-left:3px;
