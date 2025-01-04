@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.mainContainer {
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: black;
+    position: relative;
+}
+
+.btn_1 {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid green;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.btn_1:hover {
+    background-color: green;
+}
+
+#productImg {
+    max-height: 50vh;
+    object-fit: contain;
+}
+
+.mainContainer > div {
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mainContainer > div > .content, 
+.mainContainer > div > .rating {
+    width: 45vw;
+    max-height: 75vh;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    padding: 20px;
+}
+#proAbt{
+    text-align: justify;
+}
+
+.checked {
+    color: orange;
+}
+
+#proName {
+    text-transform: uppercase;
+}
+
+.mainContainer > .end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 25vh; /* Reduced margin */
+}
