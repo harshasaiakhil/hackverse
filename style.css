@@ -81,7 +81,7 @@ body {
     border: none;
     cursor: pointer;
     outline: none;
-    border-radius: 2px solid green;
+    border: 2px solid green;
   }
   
   .btn_1:hover {
