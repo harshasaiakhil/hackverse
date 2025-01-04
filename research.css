@@ -1,0 +1,346 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.backgroundVideoContainer{
+    position: fixed;
+    max-height: 100vh;
+    max-width: 100vw;
+    z-index: -1000;
+}
+
+.backgroundVideoContainer > video{
+    position: fixed;
+    max-width: 100vw;
+    z-index: -1000;
+}
+
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainContainer > .navbar{
+    height:10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+body {
+    background-color: black;
+  }
+  .logo {
+    width: 50px;
+  }
+
+  .navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+  }
+  
+  .navlist li {
+    margin: 0 15px;
+  }
+  
+  .navlist li a {
+    text-decoration: none;
+    color: white;
+  }
+  .navlist li #active{
+    color: white;
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  
+  .navlist li a:hover {
+    color: white;
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  
+  .btn_1 {
+   
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+  }
+  
+  .btn_1:hover {
+    background-color: green;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+
+
+  .mainContainer > .carouseldiv{
+    max-height: 90vh;
+    width: 100%;
+    background-color: blue;
+  }
+  .mainContainer > .carouseldiv{
+    height:90vh;
+    width: 90vw;
+  }
+
+  .mainContainer > .carouseldiv > .carousel > .carousel-inner > .carousel-item > img{
+    height:90vh;
+  }
+  
+.mainContainer>.calc-area{
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.mainContainer>.calc-area>.calculator1{
+  width:50%;
+  height:100%;
+  background-color: black;
+}
+.mainContainer>.calc-area>.calculator2{
+  width:50%;
+  height:100%;
+  background-color: black;
+
+}
+
+
+
+
+.mainContainer>.calc-area>.calculator1>.container1 {
+  max-width: 400px;
+  margin:40px 150px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+.mainContainer>.calc-area>.calculator1>.container1>form>.form-group {
+  margin-bottom: 15px;
+}
+.mainContainer>.calc-area>.calculator1>.container1>form>.form-group>label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+.mainContainer>.calc-area>.calculator1>.container1>form>.form-group>input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.mainContainer>.calc-area>.calculator1>.container1>form>button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.mainContainer>.calc-area>.calculator1>.container1>form>button:hover {
+  background-color: #218838;
+}
+#result1 {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.mainContainer>.img-area{
+  height: 98vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+.mainContainer>.img-area>img{
+  height: 100%;
+  width: 90vw;
+}
+
+
+.mainContainer>.r_d{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.mainContainer>.r_d>h1{
+  color: white;
+  font-size: 90px;
+  margin-left: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.mainContainer>.calc-area>.calculator2>.container2 {
+  max-width: 400px;
+  margin:40px 150px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.mainContainer>.calc-area>.calculator2>.container2>h1 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.mainContainer>.calc-area>.calculator2>.container2>form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mainContainer>.calc-area>.calculator2>.container2>form>label {
+  font-weight: bold;
+  margin-bottom: 2px;
+  display: block;
+}
+
+.mainContainer>.calc-area>.calculator2>.container2>form>input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.mainContainer>.calc-area>.calculator2>.container2>form>button {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.mainContainer>.calc-area>.calculator2>.container2>form>button:hover {
+  background-color: #0056b3;
+}
+
+.mainContainer>.calc-area>.calculator2>.container2>#result2 {
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: black;
+  border-left: 5px solid #28a745;
+  font-size: 16px;
+  box-shadow: 0 4px 8px white;
+  color: white;
+  
+}
+
+.mainContainer>.calc-area>.calculator2>.container2>#result2 strong {
+  color: white;
+}
+
+
+.footer-container {
+  background-color: black;
+  padding-bottom: 4rem;
+}
+
+.footer {
+  width:98vw;
+  height: 20vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-top: 2rem;
+}
+
+.footer-header {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+.footer-header h2 {
+   margin-bottom: 2rem;
+}
+
+.footer-header a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-header a:hover{
+  color: greenyellow;
+  transition: 0.3s ease-out
+}
+
+.fh-4 > div {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+
+}
+
+.fh-4 > div > input{
+  border-radius: 5px;
+  padding: 10px;
+
+  
+}
+
+.fh-4 > div > button {
+  border-radius: 5px;
+  padding: 10px;
+
+}
+
+.footer-container> .footer>.fh-5>div{
+  display: flex;
+  
+}
+.footer-container> .footer>.fh-5>div>p{
+  margin-left:3px;
+}
